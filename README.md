@@ -1,5 +1,3 @@
-Here is the complete, single-file `README.md`. You can copy the code block below entirely and paste it into your `README.md` file.
-
 ```markdown
 # Cancer Prediction System
 
