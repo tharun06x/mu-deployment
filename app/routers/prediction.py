@@ -7,8 +7,14 @@ router = APIRouter()
 
 @router.post("/predict")
 def predict(details: Details):
-    result = predict_survival(details)
-    return JSONResponse(
+    try:
+        result = predict_survival(details)
+        return JSONResponse(
         status_code=200,
         content={"cancer_prediction": result}
-    )
+        )
+    except Exception as e:
+        return JSONResponse(
+        status_code=500,
+        content={"Error":str(e)}
+        )
