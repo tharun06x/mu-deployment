@@ -9,7 +9,7 @@ st.set_page_config(
 st.title("🧬 Cancer Prediction System")
 st.write("Enter patient details to get prediction results")
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://mu-deployment.onrender.com/predict"
 
 with st.form("patient_form"):
     age = st.number_input("Age", min_value=1, max_value=120, step=1)
