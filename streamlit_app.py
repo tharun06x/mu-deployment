@@ -46,14 +46,14 @@ with st.form("patient_form"):
 
     bmi = st.number_input(
         "BMI",
-        min_value=10.0,
+        min_value=11.0,
         max_value=50.0,
-        step=0.1
+        step=1.0
     )
 
     cholesterol_level = st.number_input(
         "Cholesterol Level",
-        min_value=50.0,
+        min_value=51.0,
         max_value=300.0,
         step=1.0
     )
