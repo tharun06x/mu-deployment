@@ -1,4 +1,3 @@
-```markdown
 # Cancer Prediction System
 
 A machine learning-powered web application that predicts cancer survival and risk based on patient medical history and demographic details. This project utilizes **FastAPI** for a high-performance backend API and **Streamlit** for an interactive, user-friendly frontend.
